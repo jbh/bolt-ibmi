@@ -1,0 +1,15 @@
+# This is an example inventory.yaml
+# To read more about inventory files, see https://pup.pt/bolt-inventory
+groups:
+  - name: ibmi
+    targets:
+      - name: IBMI_SERVER_NAME
+        uri: IBMI_SERVER_URI
+    config:
+      transport: ssh
+      ssh:
+        user: IBMI_SERVER_USERNAME
+        private-key: ~/.ssh/id_rsa
+config:
+  ssh:
+    host-key-check: false
