@@ -1,4 +1,4 @@
-!#/QOpenSys/pkgs/bin/bash
+#!/bin/bash
 
 pid_path="$PT_gitbucket_path/gitbucket.pid"
 pid=$(cat $pid_path)
