@@ -4,9 +4,9 @@
 Documentation relevant to the IBM i GitBucket module.
 
 ## What is GitBucket?
-GitBucket is a Git web platform that runs on Java, is easy to install, and has
-GitHub API compatibility. Since it runs on Java, GitBucket can run on IBM i, making
-it simple to run a centralized, secure, and internal DevOps pipeline.
+GitBucket is an open source, Git web platform that runs on Java, is easy to install,
+and has GitHub API compatibility. Since it runs on Java, GitBucket can run on IBM i,
+making it simple to run a centralized, secure, and internal DevOps pipeline.
 
 ## Plans
 
