@@ -1,6 +1,6 @@
 [Back to Index...](./#index)
 
-# Bolt IBM i - GitBucket
+# Bolt for IBM i - GitBucket
 Documentation relevant to the IBM i GitBucket module.
 
 ## What is GitBucket?

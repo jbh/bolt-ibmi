@@ -1,4 +1,4 @@
-# Bolt IBM i
+# Bolt for IBM i
 A myriad of bolt plans for IBM i.
 
 ## What is Bolt?
