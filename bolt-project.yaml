@@ -1,3 +1,5 @@
 ---
 name: bolt_ibmi
+plans:
+- gitbucket::*
 modules: []
