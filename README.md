@@ -4,7 +4,7 @@ A myriad of bolt plans for IBM i.
 ## What is Bolt?
 [Bolt](https://www.puppet.com/docs/bolt/latest/bolt.html) is an open source orchestration tool,
 provided by Puppet, that automates infrastructure. Bolt has a much less steep learning curve than
-Puppet itself, and it's quite flexible, allowingyou to easily and conveniently take advantage of
+Puppet itself, and it's quite flexible, allowing you to easily and conveniently take advantage of
 your already existing infrastructure automation scripts.
 
 While you **can** use the Puppet Agent alongside Bolt, it isn't necessary, which is great for
