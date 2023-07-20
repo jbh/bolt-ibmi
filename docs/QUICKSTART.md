@@ -1,7 +1,7 @@
 [Back to Index...](./#index)
 
 # Bolt for IBM i - Quickstart
-A convenient quickstart guide for IBM i.
+A convenient quickstart guide.
 
 ## Install Prerequisites
 
