@@ -2,4 +2,6 @@
 name: bolt_ibmi
 plans:
 - gitbucket::*
+tasks:
+- gitbucket::*
 modules: []
