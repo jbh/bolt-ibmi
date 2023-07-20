@@ -32,7 +32,7 @@ plan gitbucket::restart (
   )
   run_task(
     'gitbucket::start',
-    $targets,
+    $gitbucket_check.ok_set.targets,
     'start GitBucket',
     'gitbucket_path' => $gitbucket_path,
   )
