@@ -15,3 +15,6 @@ users of IBM i, since the Puppet Agent doesn't yet support the IBM i platform.
   - [Bolt CLI](https://www.puppet.com/docs/bolt/latest/bolt_installing.html)
 - IBM i
   - [Open Source Package Manager](https://www.ibm.com/support/pages/getting-started-open-source-package-management-ibm-i-acs)
+
+## Documentation
+Read the docs [here](/docs).
