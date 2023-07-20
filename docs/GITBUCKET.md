@@ -11,7 +11,7 @@ making it simple to run a centralized, secure, and internal DevOps pipeline.
 ## Plans
 
 ### gitbucket::install
-Checks if GitBucket exists. It will display the targets where GitBucket already
+Checks if GitBucket exists. It displays the targets where GitBucket already
 exists, and it creates `/opt/gitbucket` and uses wget to download `gitbucket.war`
 on those targets where GitBucket does not exist.
 
@@ -39,11 +39,11 @@ bolt plan run gitbucket::install -t ibmi version=4.36.2 force=true
 ```
 
 ### gitbucket::restart
-Checks if GitBucket exists. It will display the targets where GitBucket does not
+Checks if GitBucket exists. It displays the targets where GitBucket does not
 exist, warning the user to run `gitbucket::install`.
 
 For those targets where GitBucket exists, it checks if GitBucket is running.
-It will then run the task `gitbucket::stop` on targets where GitBucket is
+It then runs the task `gitbucket::stop` on targets where GitBucket is
 running followed by the task `gitbucket::start` on all targets where
 GitBucket exists.
 
@@ -54,11 +54,11 @@ bolt plan run gitbucket::restart -t ibmi
 ```
 
 ### gitbucket::start
-Checks if GitBucket exists. It will display the targets where GitBucket does not
+Checks if GitBucket exists. It displays the targets where GitBucket does not
 exist, warning the user to run `gitbucket::install`.
 
 For those targets where GitBucket exists, it checks if GitBucket is running.
-It will then display the targets where GitBucket is already running and
+It then displays the targets where GitBucket is already running and
 run the task `gitbucket::start` on targets where GitBucket is stopped.
 
 #### Examples
@@ -68,11 +68,11 @@ bolt plan run gitbucket::start -t ibmi
 ```
 
 ### gitbucket::stop
-Checks if GitBucket exists. It will display the targets where GitBucket does not
+Checks if GitBucket exists. It displays the targets where GitBucket does not
 exist, warning the user to run `gitbucket::install`.
 
 For those targets where GitBucket exists, it checks if GitBucket is stopped.
-It will then display the targets where GitBucket is already stopped and
+It then displays the targets where GitBucket is already stopped and
 run the task `gitbucket::stop` on targets where GitBucket is running.
 
 #### Examples

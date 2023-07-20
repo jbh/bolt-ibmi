@@ -14,7 +14,7 @@ way is to use Access Client Solutions to install IBM i OSPM.
 
 ### Bolt CLI
 Be sure to install [Bolt CLI](https://www.puppet.com/docs/bolt/latest/bolt_installing.html)
-on your local machine. This will allow you to run the plans in this repository.
+on your local machine. This allows you to run the plans in this repository.
 
 ## Clone repository
 
