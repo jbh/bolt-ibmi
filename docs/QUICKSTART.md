@@ -1,3 +1,5 @@
+[Back to Index...](./#index)
+
 # Bolt IBM i - Quickstart
 A convenient quickcstart guide for IBM
 
