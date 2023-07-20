@@ -15,13 +15,13 @@ plan gitbucket::restart (
   )
   $running_check = run_command(
     "test -f ${$gitbucket_path}/gitbucket.pid",
-    $targets,
+    $gitbucket_check.ok_set.targets,
     'check if GitBucket is already running',
     '_catch_errors' => true,
   )
 
   if count($gitbucket_check.error_set.targets) > 0 {
-    fail_plan("No GitBucket found on targets: ${join($gitbucket_check.error_set.targets, ', ')}. Please run gitbucket::install first.")
+    out::message("No GitBucket found on targets: ${join($gitbucket_check.error_set.targets, ', ')}. Please run gitbucket::install first.")
   }
 
   run_task(
