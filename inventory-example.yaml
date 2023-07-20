@@ -3,12 +3,12 @@
 groups:
   - name: ibmi
     targets:
-      - name: IBMI_SERVER_NAME
-        uri: IBMI_SERVER_URI
+      - name: IBMI_NAME
+        uri: IBMI_URI
     config:
       transport: ssh
       ssh:
-        user: IBMI_SERVER_USERNAME
+        user: IBMI_USERNAME
         private-key: ~/.ssh/id_rsa
 config:
   ssh:
