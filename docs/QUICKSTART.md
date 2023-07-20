@@ -1,7 +1,7 @@
 [Back to Index...](./#index)
 
 # Bolt IBM i - Quickstart
-A convenient quickstart guide for IBM
+A convenient quickstart guide for IBM i.
 
 ## Install Prerequisites
 
@@ -36,6 +36,9 @@ cp inventory-example.yaml inventory.yaml
 
 Then replace the placeholders: `IBMI_NAME`, `IBMI_URI`, and `IBMI_USERNAME` with their relevant
 values, and add as many groups and targets as you like.
+
+You can read more about the inventory file and different ways to connect to targets
+[here](https://pup.pt/bolt-inventory).
 
 ## Run plans
 
