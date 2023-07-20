@@ -1,7 +1,7 @@
 [Back to Index...](./#index)
 
 # Bolt for IBM i - GitBucket
-Documentation relevant to the IBM i GitBucket module.
+Documentation relevant to the GitBucket module.
 
 ## What is GitBucket?
 GitBucket is an open source, Git web platform that runs on Java, is easy to install,
