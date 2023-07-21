@@ -1,4 +1,4 @@
-# @summary Ensures the GitBucket java applet is running
+# @summary Restarts the GitBucket java applet
 #
 # @param targets
 #   Target name; can be a single target or a group of targets
