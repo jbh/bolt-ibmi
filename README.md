@@ -1,5 +1,5 @@
 # Bolt for IBM i
-A myriad of bolt plans for IBM i.
+A myriad of Bolt plans for IBM i.
 
 ## What is Bolt?
 [Bolt](https://www.puppet.com/docs/bolt/latest/bolt.html) is an open source orchestration tool,
